@@ -1,6 +1,6 @@
 /*Karla Alexia Guerrero González
 Práctica 10 17/10/24
-Impresión de matriz 3 x 3 dada por el usuario*/
+Impresión de matriz 3 x 3 dada por el usuario con ciclo For*/
 
 #include <stdio.h>
 

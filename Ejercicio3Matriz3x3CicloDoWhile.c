@@ -7,11 +7,23 @@ Impresión de matriz 3 x 3 Ciclo Do While*/
 int main()
 {
   int arr[3][3] = {{1, 2, 3}, {1, 2, 3}, {1, 2, 3}};
-  int i, j;
+  int i = 0, j = 0;
 
-do
+  do
     {
-        res = res * a;
-        i = i + 1;
+      j = 0;
+        do
+        {
+          printf("%d ", arr[i][j]);
+          j++;
+        }
+        while(j < 3);
+      printf("\n");
+      i++;
+    while(i < 3);
     }
-    while(i < b);
+return 0;
+}
+
+
+        
